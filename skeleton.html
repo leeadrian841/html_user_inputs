@@ -6,6 +6,7 @@
   </head>
   <body>
     <img src="https://cdn.evbuc.com/eventlogos/170250867/gaflatlogo.png">
+    <h1>General Assembly Account Creation</h1>
     <p>
       Welcome to the General Assembly. General Assembly is a global institution training people all over the world in today's top technologies.
     </p>
@@ -16,8 +17,8 @@
       city you're in and whether you're taking the Immersive User Experience (UX)
       course or the Immersive Web Development course.
     </p>
-    <form>
-      <label>City:
+    <form action="success.html" method="get">
+      <label for="city">City:
         <select name="city">
           <option value="HK">Hong Kong</option>
           <option value="LN">London</option>
@@ -42,13 +43,13 @@
       </label>
         <br></br>
         <label for="name">Name</label>
-        <input id="name" type="text" value="">
+        <input id="name" type="text" name="name" value="name">
         <br></br>
         <label for="email">Email</label>
-        <input id="name" type="text" value="">
+        <input id="name" type="text" name="email" value="email">
         <br></br>
         <label for="password">Password</label>
-        <input id="name" type="text" value="">
+        <input id="name" type="text" name="password" value="password">
         <br></br>
     </form>
     <label>
